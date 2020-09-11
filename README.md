@@ -27,6 +27,6 @@ On the MRTG end, you have to install curl and html2text, and then set targets li
 ``Target[192.168.0.1_8]: `curl -s http://192.168.0.1:5000/bond0 | sed -e s/\"//g | html2text` ``
 
 
-That's it!  Then you get graphs with support for throughput higher than what 32-bit counters support -
+That's it!  Then you get graphs with support for throughput higher than what 32-bit counters support, and it supports interfaces mini_snmpd doesn't seem to, like bond0.11, wl0.1, tun11, etc -
 
 ![Sample Graph](/graph.jpg)
