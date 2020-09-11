@@ -1,4 +1,4 @@
-Traffic stats server for AX88U
+#Traffic stats server for AX88U
 
 snmpd crashes the Asus AX88U, and mini_snmpd as has been suggested in the forums as an alternative, does not appear to support 64-bit counters.
 
@@ -27,4 +27,3 @@ Target[192.168.0.1_8]: `curl -s http://192.168.0.1:5000/bond0 | sed -e s/\"//g |
 That's it!  Then you get graphs with support for throughput higher than what 32-bit counters support -
 
 ![Sample Graph](/graph.jpg)
-Format: ![Graph showing high utilization](url)
