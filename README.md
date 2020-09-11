@@ -21,7 +21,7 @@ I'm sure it's not the most secure or well written thing in the world, but it doe
 
 On the MRTG end, you have to install curl and html2text, and then set targets like so -
 
-``Target[192.168.0.1_8]: `curl -s http://192.168.0.1:5000/bond0 | sed -e s/\"//g | html2text```
+``Target[192.168.0.1_8]: `curl -s http://192.168.0.1:5000/bond0 | sed -e s/\"//g | html2text` ``
 
 
 That's it!  Then you get graphs with support for throughput higher than what 32-bit counters support -
