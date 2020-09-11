@@ -4,6 +4,7 @@ from os import path
 from pathlib import Path
 import socket
 
+# Uptime subroutine courtesy of - https://thesmithfam.org/blog/2005/11/19/python-uptime-script/
 def uptime():
 	try:
 		f = open( "/proc/uptime" )
