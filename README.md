@@ -12,7 +12,7 @@ To install it, after installing Merlin firmware if you're not already running it
 
 `pip install -r /jffs/ax88u_traffic_stats_server/requirements.txt`
 
-then run the following for a one-time run, and add it to your services-start file in /jffs/scripts -
+then run the following for a one-time run, and add it to your services-start file in /jffs/scripts to have it start on boot -
 
 `gunicorn --bind 0.0.0.0:5000 --chdir /jffs/ax88u_traffic_stats_server wsgi:app --daemon`
 
