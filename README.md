@@ -6,11 +6,11 @@ I created this to get around all that.  It's a simple Flask application that wil
 
 To install it, after installing Merlin firmware if you're not already running it, enabling custom scripts, enabling entware, installing python3, python3-pip and git, I'd suggest the following -
 
-`
-cd /jffs
-git clone https://github.com/hyacin75/ax88u_traffic_stats_server
-pip install -r /jffs/ax88u_traffic_stats_server/requirements.txt
-`
+`cd /jffs`
+
+`git clone https://github.com/hyacin75/ax88u_traffic_stats_server`
+
+`pip install -r /jffs/ax88u_traffic_stats_server/requirements.txt`
 
 then run the following for a one-time run, and add it to your services-start file in /jffs/scripts -
 
