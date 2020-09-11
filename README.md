@@ -4,7 +4,7 @@ snmpd crashes the Asus AX88U, and mini_snmpd as has been suggested in the forums
 
 I created this to get around all that.  It's a simple Flask application that will read interface counters from /sys and return them in an MRTG compatible format.
 
-To install it, after enabling custom scripts, enabling entware, installing python3, python3-pip and git, I'd suggest the following -
+To install it, after installing Merlin firmware if you're not already running it, enabling custom scripts, enabling entware, installing python3, python3-pip and git, I'd suggest the following -
 
 `cd /jffs
 git clone https://github.com/hyacin75/ax88u_traffic_stats_server`
